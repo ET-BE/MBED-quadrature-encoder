@@ -1,0 +1,9 @@
+# Build stuff
+build/
+debug/
+release/
+
+# IDE stuff
+.idea/
+.vscode/
+.vs/
