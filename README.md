@@ -10,7 +10,8 @@ Class was originally written for the K64F with MBED-OS. However, the code should
 
 QEI encoder(D11, D12);
 
-int y = encoder.pulses();
+int y = encoder.getPulses();
+float revs = encoder.getRevolutions();
 ```
 
 ## Credits
